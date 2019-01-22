@@ -1,0 +1,201 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amazonaws.youruserpools.Fragments.SettingsFragment">
+
+    <TextView
+        android:id="@+id/settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="Settings"
+        android:paddingTop="14dp"
+        android:textColor="@color/toolbar_items"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:background="@color/toolbar_background" />
+
+    <Space
+        android:id="@+id/space_a"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/settings_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: "
+        android:textSize="14sp"
+        android:paddingTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/settings_name"
+        android:layout_below="@+id/space_a"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/settings_name_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/border_selector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:layout_below="@id/settings_name" />
+
+  <Button
+        android:id="@+id/button_edit_name"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+      android:text="Edit"
+        android:textColor="@color/white"
+        android:background="@drawable/button_partial_radius"
+        android:textAllCaps="false"
+      android:layout_marginRight="0dp"
+      android:layout_below="@+id/settings_name"
+      android:layout_alignEnd="@+id/settings_name_placeholder" />
+
+
+    <Space
+        android:id="@+id/space_b"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_below="@+id/settings_name_placeholder" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail: "
+        android:textSize="14sp"
+        android:paddingTop="11dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/settings_email"
+        android:textColor="@color/black"
+        android:layout_below="@+id/space_b" />
+
+    <TextView
+        android:id="@+id/settings_email_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="100dp"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:background="@drawable/border_selector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:layout_below="@id/settings_email"
+        android:textColor="@color/grey_400" />
+
+
+    <Button
+        android:id="@+id/button_edit_email"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Edit"
+        android:textColor="@color/white"
+        android:background="@drawable/button_partial_radius"
+        android:textAllCaps="false"
+        android:layout_marginRight="0dp"
+        android:layout_below="@+id/settings_email"
+        android:layout_alignEnd="@+id/settings_email_placeholder" />
+
+    <Space
+        android:id="@+id/space_c"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/settings_email_placeholder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You need to verify this email in order to secure your account."
+        android:textSize="10sp"
+        android:paddingTop="0dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/verify_message"
+        android:textColor="@color/alert"
+        android:layout_below="@+id/settings_email_placeholder"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_verify_email"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Verify"
+        android:textColor="@color/white"
+        android:background="@color/alert"
+        android:textAllCaps="false"
+        android:layout_marginRight="0dp"
+        android:layout_toLeftOf="@+id/button_edit_email"
+        android:layout_below="@+id/settings_email"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Change password"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:textAllCaps="false"
+        android:layout_above="@+id/space_d"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <Space
+        android:id="@+id/space_d"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/talk_human_button" />
+
+    <Button
+        android:id="@+id/talk_human_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Talk to a human"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/space_e"
+        android:background="@drawable/button_selector"
+        />
+
+    <Space
+        android:id="@+id/space_e"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_above="@+id/buttonSignOut" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign out"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/buttonSignOut"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector"
+        android:layout_above="@+id/space_f" />
+
+    <Space
+        android:id="@+id/space_f"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

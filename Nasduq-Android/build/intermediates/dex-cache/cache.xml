@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\e41953ecb60ca3b24e7b7c8ee278545b692d9e5b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_1e751c7913e4b232f96a39c23dac83a715df4c44.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\7ad2473b784f1ab60c0785d19beeb99ae41044d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_4eaf8f25a25a1584b8dd2bcd37cfcd56ebf09316.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\3847c812784d71bf75c8543250ebcb14e4755713\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_f641ba0fdce33ec4782cc85bd32df691825bf82c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\3e520c6b29e1d4a9a18bbf93348e307bfd3c4aec\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_f690d517996c9519875b00da354cd9d3d270e43a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\6020a1a75f8b202382d095187e121f1516333cdf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_a39153736c22f7941fbf721a80a08dcdcc2ad66f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\a305c7d4ee12077d14ce0b73cc3f3d2b53bc3e98\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9ecde39b460470e655de6e47c05573d2d5a8bfb">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_a41369542bf7e2d38115c3a8cd26b0ee30f39adb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\d4875e01071606002798253e22150493542a3a19\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\classes_36099f67e59346e8f7a86150832f7cd86b9dedd0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Leandro\.android\build-cache\d4875e01071606002798253e22150493542a3a19\output\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\Leandro\AndroidStudioProjects\Nasduq_Android2\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0_12416d5b4dd7e00edeb4a1c191167a77363937e1.jar" />
+    </item>
+
+</items>

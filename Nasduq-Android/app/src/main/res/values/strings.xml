@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Nasduq</string>
+    <string name="app_main_screen">Sign in</string>
+    <string name="app_main_screen_title">Nasduq 2.0</string>
+    <string name="app_main_desc">To wake up Nasduq, \n you need to type your password.</string>
+    <string name="nav_drawer_open">Open navigation drawer</string>
+    <string name="nav_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Menu">Menu</string>
+    <string name="title_activity_about_app">AboutApp</string>
+    <string name="about">Copyright 2016 Amazon.com, Inc. or its affiliates. All Rights Reserved.\n\nLicensed under the Amazon Software License (the "License").\nYou may not use this file except in compliance with the License.\nA copy of the License is located at\n\nhttp://aws.amazon.com/asl/
+\n\nor in the "license" file accompanying this app. This app is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.</string>
+    <string name="more_info">This is a sample app to showcase Cognito Identity and the SDK for Android.</string>
+    <string name="title_activity_sign_up_confirm">SignUpConfirm</string>
+    <string name="title_activity_mfa">MFAActivity</string>
+    <string name="title_activity_forgot_password">ForgotPasswordActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="title_activity_verify">VerifyActivity</string>
+    <string name="title_activity_add_attribute">AddAttributeActivity</string>
+    <string name="title_activity_device_settings">DeviceSettings</string>
+    <string name="title_activity_new_password">NewPassword</string>
+    <string name="request_password_text">Because Nasduq`s in beta phase, \nit can only accept a limited number of people. \nThat`s why we are only giving away 100 passwords... for now. \n \n \n \nEnter your e-mail to request a code, \nyou might be one of the lucky few.</string>
+    <string name="success_message">We received your e-mail!  \nExpect further instructions in the next 24 hours.</string>
+    <string name="error_url_not_found">API endpoint not found.</string>
+    <string name="error_generic_api_failure">Sorry, we could not complete the request due to an unknown error. Try again later.</string>
+</resources>

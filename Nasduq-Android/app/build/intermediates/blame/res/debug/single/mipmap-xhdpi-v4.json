@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Leandro\\AndroidStudioProjects\\Nasduq_Android2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_dots_grey.gif",
+        "source": "C:\\Users\\Leandro\\AndroidStudioProjects\\Nasduq_Android2\\app\\src\\main\\res\\mipmap-xhdpi\\load_dots_grey.gif"
+    },
+    {
+        "merged": "C:\\Users\\Leandro\\AndroidStudioProjects\\Nasduq_Android2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi-v4\\load_dots_grey_xhdpi.gif",
+        "source": "C:\\Users\\Leandro\\AndroidStudioProjects\\Nasduq_Android2\\app\\src\\main\\res\\mipmap-xhdpi\\load_dots_grey_xhdpi.gif"
+    }
+]

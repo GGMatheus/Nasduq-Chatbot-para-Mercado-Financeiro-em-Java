@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.amazonaws.youruserpools.Fragments.WatchlistFragment" >
+
+    <TextView
+        android:id="@+id/watchlist_title"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:text="Watchlist"
+        android:textColor="@color/toolbar_items"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:paddingTop="14dp"
+        android:background="@color/toolbar_background" />
+
+    <Space
+        android:id="@+id/space_g"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/watchlist_title" />
+
+    <ProgressBar
+        android:id="@+id/watchlist_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.ProgressBar"
+        android:maxHeight="35dip"
+        android:minHeight="35dip"
+        android:maxWidth="35dip"
+        android:minWidth="35dip"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="20dp" />
+
+    <RadioGroup
+        android:id="@+id/buttons_radiogroup"
+        android:layout_below="@id/space_g"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal"
+        android:weightSum="1" >
+
+    <RadioButton
+        android:id="@+id/button_day"
+        android:layout_width="wrap_content"
+        android:button="@null"
+        android:layout_height="40dp"
+        android:text="Day"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_state"
+        android:textAllCaps="false"
+        android:layout_weight="0.25" />
+
+    <RadioButton
+        android:id="@+id/button_week"
+        android:layout_width="wrap_content"
+        android:button="@null"
+        android:layout_height="40dp"
+        android:text="Week"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_state"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/button_day"
+        android:layout_weight="0.25" />
+
+    <RadioButton
+        android:id="@+id/button_month"
+        android:layout_width="wrap_content"
+        android:button="@null"
+        android:textAlignment="center"
+        android:layout_height="40dp"
+        android:text="Month"
+        android:textColor="@color/white"
+        android:background="@drawable/button_state"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/button_week"
+        android:layout_weight="0.25" />
+
+    <RadioButton
+        android:id="@+id/button_year"
+        android:layout_width="wrap_content"
+        android:button="@null"
+        android:layout_height="40dp"
+        android:text="Year"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@drawable/button_state"
+        android:textAllCaps="false"
+        android:layout_toRightOf="@id/button_month"
+        android:layout_weight="0.25" />
+
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/watchlist_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_below="@+id/buttons_radiogroup">
+    </android.support.v7.widget.RecyclerView>
+
+    <WebView
+        android:id="@+id/watchlist_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone">
+    </WebView>
+
+</RelativeLayout>

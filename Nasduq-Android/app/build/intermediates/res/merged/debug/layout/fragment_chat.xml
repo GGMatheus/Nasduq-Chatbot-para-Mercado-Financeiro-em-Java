@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/chatfragment_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_200" >
+
+    <LinearLayout
+        android:id="@+id/chat_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/chat_title"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:text="Nasduq chat"
+            android:paddingTop="14dp"
+            android:textColor="@color/toolbar_items"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:background="@color/toolbar_background" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/listview_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/chat_title_layout" >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/list_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:listSelector="@android:color/transparent"
+            android:transcriptMode="alwaysScroll" >
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/type_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_radius_bottom_chat"
+        android:layout_marginLeft="5dp"
+        android:minHeight="50dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone" >
+
+        <com.amazonaws.youruserpools.Utils.BackPressEditText
+            android:id="@+id/user_text_edittext"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/border_usertype"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Type your response..."
+            android:layout_toStartOf="@+id/user_text_sendbutton"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:id="@+id/user_text_sendbutton"
+            android:layout_width="50dp"
+            android:minHeight="30dp"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:padding="5dp"
+            android:background="@drawable/border_user_chatboxes"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp" />
+
+    </RelativeLayout>
+</RelativeLayout>
+

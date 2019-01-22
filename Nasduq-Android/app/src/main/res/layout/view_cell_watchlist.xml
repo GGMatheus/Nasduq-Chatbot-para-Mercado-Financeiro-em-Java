@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/watchlist_listview_row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/border_selector" >
+
+    <TextView
+        android:id="@+id/company_acronym"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/company_acronym" />
+
+    <TextView
+        android:id="@+id/stock_value"
+        android:layout_marginTop="6dp"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:textSize="20sp"
+        android:textAlignment="textEnd"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/currency"
+        android:layout_width="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_height="28dp"
+        android:layout_toLeftOf="@id/stock_value"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/abs_change"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/stock_value"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/variation_number_value"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@id/abs_change"
+        android:layout_below="@id/stock_value"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/variation_indicator"
+        android:layout_width="15dp"
+        android:layout_height="10dp"
+        android:layout_below="@id/stock_value"
+        android:layout_toLeftOf="@id/variation_number_value"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY" />
+
+</RelativeLayout>

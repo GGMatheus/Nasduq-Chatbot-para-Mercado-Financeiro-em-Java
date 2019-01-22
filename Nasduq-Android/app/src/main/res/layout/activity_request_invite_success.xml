@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="com.amazonaws.youruserpools.Activities.SignUpActivity"
+    >
+
+    <Space
+        android:id="@+id/space_3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/text_success"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Success!"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/space_3" />
+
+    <Space
+        android:id="@+id/space_4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/text_success"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:textSize="150dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/space_4"
+        android:id="@+id/party_popper" />
+
+    <Space
+        android:id="@+id/space_5"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_below="@+id/party_popper"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/success_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/success_message"
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/space_5" />
+
+    <Space
+        android:id="@+id/space_6"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/success_message"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/take_me_back_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Take me back home"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:layout_below="@+id/space_6"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_selector" />
+
+</RelativeLayout>
